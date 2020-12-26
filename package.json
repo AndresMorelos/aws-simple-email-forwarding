@@ -4,7 +4,8 @@
   "description": "Simple Email Forwarding with AWS SES & Serverless",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,10 @@
   "homepage": "https://github.com/AndresMorelos/aws-sls-email-forwarding#readme",
   "dependencies": {
     "aws-sdk": "^2.817.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
