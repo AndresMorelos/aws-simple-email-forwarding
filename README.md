@@ -33,3 +33,16 @@ or
     npm i
     sls deploy --stage [DEV/TEST/PROD/STAGE_NAME]
 ```
+
+## Limitations
+
+1. A domain verify at AWS SES service first is needed. 
+2. A sender email verify at AWS SES service first is needed.
+
+### How to verify my domain?
+
+> See [https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-domain-procedure.html](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-domain-procedure.html)
+
+### How to verify my email?
+
+> See [https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-email-addresses-procedure.html](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-email-addresses-procedure.html)
