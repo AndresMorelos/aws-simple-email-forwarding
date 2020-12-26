@@ -1,0 +1,33 @@
+{
+  "name": "email-forwarding",
+  "version": "1.0.0",
+  "description": "Simple Email Forwarding with AWS SES & Serverless",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresMorelos/aws-sls-email-forwarding.git"
+  },
+  "keywords": [
+    "AWS",
+    "SES",
+    "SERVERLESS",
+    "EMAIL",
+    "FORWARD"
+  ],
+  "author": {
+    "name": "Andrés Morelos",
+    "email": "me@andresmorelos.dev",
+    "url": "https://andresmorelos.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndresMorelos/aws-sls-email-forwarding/issues"
+  },
+  "homepage": "https://github.com/AndresMorelos/aws-sls-email-forwarding#readme",
+  "dependencies": {
+    "aws-sdk": "^2.817.0"
+  }
+}

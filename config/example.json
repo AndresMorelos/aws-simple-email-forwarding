@@ -1,0 +1,10 @@
+{
+    "BUCKET_NAME": "fowarder-emails",
+    "EMAIL_RECIPIENTS": [
+        "me@andresmorelos.dev"
+    ],
+    "DESTINATION": [
+        "name@domain.tdl"
+    ],
+    "SENDER": "name@domain.tdl"
+}
